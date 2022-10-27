@@ -1,0 +1,22 @@
+**Sintaxe para declarar uma variável:
+  
+   let NomeDaVariavel = ValorAtribuido
+
+   ex.: let nota1= 5;
+   "O exemplo mostra que a variável 'nota1' está recebendo o valor 5".
+
+   OBS.: O valor atribuido a uma variável pode ser mudado de acordo com a lógica aplicada.
+
+
+**Sintaxe para declarar uma constante:
+
+    const NomeDaContante= ValorAtribuido
+
+    ex.: const pi = 3.14;
+    "O exemplo mostra que a constante 'pi' está recebendo o valor 3.14".
+
+    OBS.: O valor atribuido a uma constante não pode ser alterado.
+
+
+
+
