@@ -13,4 +13,4 @@ let gastoTotalViagem = 0;
 
 gastoTotalViagem = (distanciaTotalemKM/consumoPorKM)*precoCombustivel;
 
-console.log (gastoTotalViagem);
+console.log (gastoTotalViagem.toFixed(2));
