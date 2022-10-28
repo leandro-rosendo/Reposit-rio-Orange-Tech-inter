@@ -19,11 +19,16 @@ const consumoMedioPorKm = 10;
 
 let custoViagem = 0;
 
-if (tipoCombustivel == 'etanol'){//Se o combustível for etanol, executa o calculo e imprime as duas mensagens na tela
+//Se o combustível for etanol, executa o calculo e imprime as duas mensagens na tela
+
+if (tipoCombustivel == 'etanol'){
     custoViagem = (distancia_em_KM/consumoMedioPorKm)*precoEtanol;
     console.log('O combustível do seu carro é Etanol')
     console.log('O custo da viagem é de R$= ', custoViagem);
-} else {//se for gasolina, executa essa sequência.
+
+//se for gasolina, executa essa sequência.
+
+} else {
     custoViagem = (distancia_em_KM/consumoMedioPorKm)*precoGasolina;
     console.log('O combustível do seu carro é Gasolina')
     console.log('O custo da viagem é de R$= ', custoViagem);
