@@ -19,7 +19,9 @@ const altura = 1.79;
 let imc = 0;
 
 //Calculo do IMC
-imc = peso/(altura*altura);
+//imc = peso/(altura*altura);
+
+imc = peso / Math.pow(altura,2);//Foi incluido o metodo Math.pow para calcular altura ao quadrado
 
 //Verificando critérios de classificação
 if (imc < 18.5){
