@@ -12,8 +12,11 @@ const nota2 = 6;
 const nota3 = 10;
 let media = 0;
 
+
+//Calculando a média entre as 3 notas
 media = (nota1+nota2+nota3)/3;
 
+//Verificando os critérios de classificação
 if (media < 5){
     console.log('Aluno está reprovado com média ', media.toFixed(2));
 }
