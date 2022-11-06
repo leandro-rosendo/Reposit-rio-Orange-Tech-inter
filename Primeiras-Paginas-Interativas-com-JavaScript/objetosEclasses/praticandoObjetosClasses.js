@@ -13,7 +13,7 @@ class Carro {
         this.corDoCarro = cor;
         this.gastoMedioPorKilometro = gastoMedio;
     }
-
+    //Metodo para calcular o custo da viagem
     calcularGastoMedioDaViagem(distancia, precoCombustivel){
         return (distancia/this.gastoMedioPorKilometro)*precoCombustivel;
     }
