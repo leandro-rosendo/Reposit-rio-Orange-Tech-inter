@@ -20,6 +20,17 @@ class Pessoa{
     calcularIMC (){
         return (this.pesoDaPessoa/(this.alturaDaPessoa*this.alturaDaPessoa));
     }
+    //Verifica a classificação do IMC
+    classificarImc(){
+        const imc = this.calcularIMC();
+
+        if (imc < 18){
+            return 'Você está magro!';
+        }else{
+            return 'Você está gordo!'
+        }
+        
+    }
 }
 
 
@@ -27,6 +38,8 @@ class Pessoa{
 const pessoa1 = new Pessoa ('José', 70, 1.75);
 const pessoa2 = new Pessoa ('Leandro', 82, 1.79);
 
-console.log('Nome:',pessoa1.nomeDaPessoa+', peso:',pessoa1.pesoDaPessoa+', altura:',pessoa1.alturaDaPessoa+', o IMC é:',pessoa1.calcularIMC().toFixed(2));
+//Retorno da pessoa1
+console.log('Nome:',pessoa1.nomeDaPessoa+', peso:',pessoa1.pesoDaPessoa+', altura:',pessoa1.alturaDaPessoa+', o IMC é:',pessoa1.calcularIMC().toFixed(2), pessoa1.classificarImc());
 
-console.log('Nome:',pessoa2.nomeDaPessoa+', peso:',pessoa2.pesoDaPessoa+', altura:',pessoa2.alturaDaPessoa+', o IMC é:',pessoa2.calcularIMC().toFixed(2));
+//Retorno da pessoa2
+console.log('Nome:',pessoa2.nomeDaPessoa+', peso:',pessoa2.pesoDaPessoa+', altura:',pessoa2.alturaDaPessoa+', o IMC é:',pessoa2.calcularIMC().toFixed(2), pessoa2.classificarImc());
