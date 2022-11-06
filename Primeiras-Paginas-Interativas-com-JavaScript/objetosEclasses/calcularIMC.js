@@ -16,6 +16,7 @@ class Pessoa{
         this.alturaDaPessoa= altura;
     }
     
+    //Metodo para calcular IMC
     calcularIMC (){
         return (this.pesoDaPessoa/(this.alturaDaPessoa*this.alturaDaPessoa));
     }
