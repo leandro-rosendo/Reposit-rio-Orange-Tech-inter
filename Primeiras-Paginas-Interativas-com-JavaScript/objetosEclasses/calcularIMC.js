@@ -34,8 +34,8 @@ class Pessoa{
 }
 
 
-
-const pessoa1 = new Pessoa ('José', 70, 1.75);
+//Enstanciando novas pessoas
+const pessoa1 = new Pessoa ('José', 50, 1.75);
 const pessoa2 = new Pessoa ('Leandro', 82, 1.79);
 
 //Retorno da pessoa1
